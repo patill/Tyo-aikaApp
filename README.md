@@ -65,15 +65,16 @@ backup of your data to avoid data loss.
 
 # Todo
 
-It should be possible to not only add but also remove log records with
-the correction button.
-
 The app should show logged out status in the morning automatically. This
 is not easily achieved since the PWA can stay all the time in the RAM
 of the device and thus it won't be updated when the user opens the
 app again. It would be maybe possible to track the focus of the app
 and initiate a reload, together with which there could be also checked
 the hour of the day.
+
+When implementing an Ulos which would not change the saldo, we could always
+provide a clean logged out status in the morning when there isn't yet any
+entry for that day.
 
 The data should be safe. This is virtually impossible since the data is
 contained only locally and it is up to the user to initiate a backup.
